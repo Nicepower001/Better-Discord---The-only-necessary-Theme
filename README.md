@@ -5,22 +5,23 @@ The Only Necessary Theme
 
 
 ### Features:
-- Custom Background
-- Custom Colors
-- Custom Font
-- Support of up to 4 different Background Images (They rotate)
-- Highly Customizable (You can change the colors, background images, font and more in the settings)
-<br>
+- Custom Colors (Text, Background, Borders, etc.)
+- Custom Font (Pixel Style :D)
+- Custom Borders (Around the whole ui, around messages, around channels, etc.)
+- Support of up to 4 different Background Images (They switch :D)
+- Highly Customizable (You can change pretty much everything)
 
 ### NOTE:
 - This theme uses Google Fonts (Jersey 10, Tiny5). This means that google gets your ip address when using these fonts (and with that this theme). But you can just change the font if you arent comfortable with that.
 - I didnt provide any background pictures cause i want you to use your own pictures, but you can easily find some on google or use your own :D (also didint wanna risk copyright issues :P)
 - I probably wont actively update this theme (only if it causes issues for me lmao)
-- There are probably also way to many unnecessary lines of code in there, but i just wanted to make it work and didnt care about the code quality that much :P
 - I have only tested this theme on Better Discord, but maybe it also works on other clients ¯\\\_(ツ)_/¯
 - I have tested it on Windows and Linux, but not on MacOS, so if you have one and could tell me if it works that would be great :D
 - I take no responsibility if this theme causes any issues for you (like if you get caught with an inappropriate background image or something like that)
 - I took the example picture myself, so feel free to use it as a background image if you like it :D
+- _<sub>There probably are many unnecessary lines of code but as long as it works i dont care</sub>_
+
+<br>
 
 ## Theme Guidelines
 #### (from the Better Discord Wiki)
@@ -51,4 +52,3 @@ The Only Necessary Theme
 ### Design:
 - Themes should provide a cohesive design that notably alters the look and feel of Discord => i hope it does :D
 - Themes should be designed to seamlessly integrate with any unthemed sections, ensuring a smooth and consistent experience across the entire interface => Did most of it except for the settings menu (which i will probably change in the future), the nitro menu (dont think you can completly change the theme of that) and the popups
-- 
