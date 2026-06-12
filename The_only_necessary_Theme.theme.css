@@ -1,0 +1,72 @@
+/**
+ * @name The only necessary Theme
+ * @author Nicepower001
+ * @version 1.0.0
+ * @description It contains everything you need to make a nice theme, you can change the colors and images (Yes IMAGES it supports up to four images and rotates between them) to your liking. There also is a cool custom font. Even a few plugins are integrated / affected (for example MemberCounter). IMPORTANT TO NOTE IS THAT I HAVE CLEARED THE IMAGES SO DONT PANIC IF YOU DONT SEE ANY YOU HAVE TO INPUT EM YOURSELF
+ * @source https://github.com/Nicepower001/Better-Discord---The-only-necessary-Theme
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Tiny5&display=swap');
+
+:root {
+  /*BACKGROUND*/
+  --nice-background-color: #000000;
+  --nice-background-image-1: initial;
+  --nice-background-image-2: initial;
+  --nice-background-image-3: initial;
+  --nice-background-image-4: initial;
+  /* IF YOU DONT HAVE FOUR IMAGES PLS WRITE */
+  /* --nice-background-image-4: initial;    */
+  /* THE INITIAL IN THE END IS CRUCIAL ELSE */
+  /* THE FALLBACK DOESNT WORK               */
+  /*                                        */
+  /* IF YOU DO AND WANT TO SEE EM WRITE FOR */
+  /* EXAMPLE:                               */
+  /* --nice-background-image-1: url(https://media.discordapp.net/attachments/1514614496382156870/1514614538744496289/2026-05-02_20.02.58.png?ex=6a2c0236&is=6a2ab0b6&hm=3b6858a33a94f9a7c60eb1fd8fb17c643aead1f2afc7757bc85ecd699490b241&=&quality=lossless); */
+  /* OR YOU JUST DO SMTH LOKAL ON YOUR PC IF YOU HAVE A PICTURE ETC. YOU DONT WANT ON THE INTERNET ;) */
+  /* ALSO PLS START INPUTTING IMAGES FROM THE TOP. LIKE FIRST DO IMAGE-1 THEN IMAGE-2 ETC. */
+  --nice-background-image-change: 120s; /* HOW LONG EACH IMAGE STAYS AS BACKGROUND IF 4 IMAGES (SO YOU TYPE 4 SEC AND EACH IMAGE WILL STAY 4 SEC) */
+  --nice-border-color: rgb(255, 204, 0, 0.5);
+
+  /*FRIEND BOX ITEMS*/
+  --nice-friend-box-item-color: rgb(0, 0, 0, 0.3);
+  --nice-friend-box-item-border: 0.5px solid rgb(255, 204, 0, 0.3);
+
+  /*TEXT BUBBLES*/
+  --nice-text-border-radius: 5px;
+  --nice-text-border: 0.5px solid rgb(255, 204, 0, 0.3);
+  --nice-text-padding: 0 5px 0 5px;
+  --nice-text-background: rgb(0, 0, 0, 0.3);
+  --nice-text-color: rgb(0, 255, 0);
+  --nice-text-username-color: rgb(255, 204, 0);
+  --nice-text-timestamp-color: rgb(255, 255, 255);
+  --nice-text-have-been-called-color: rgb(255, 0, 255);
+  --nice-text-poll-color: rgb(255, 128, 0);
+  --nice-text-poll-percentage-color: rgb(255, 0, 0);
+  --nice-text-mentioned-color: rgb(255, 0, 0, 0.4);
+  --polls-victor-fill: rgb(64, 255, 0, 0.4);
+  --interactive-background-active: 	rgb(115, 115, 115, 0.4);
+
+  /*RANDOM OTHER*/
+  --nice-border: 0.5px solid rgb(255, 204, 0, 0.75) !important;
+  --nice-gen-font: "Tiny5", sans-serif !important;
+  --font-primary: "Jersey 10", sans-serif !important;
+  --font-display: "Tiny5", sans-serif !important;
+  --background-base-lower: 0 0 !important;
+  --nice-member-count-color: rgb(255, 255, 255);
+  --nice-roles-color: rgb(0, 255, 255);
+  --nice-selected-channel-color: rgb(51, 255, 51, 0.25);
+  --nice-unread-messages-color: rgb(255, 51, 51, 0.15);
+  --nice-unread-dms-border: rgb(255, 0 ,0);
+  --nice-pinged-channel-color: rgb(255, 255, 0, 0.5);
+  --nice-group-border-width: 2px;
+
+  /*COLOR SHIFTING*/
+  --nice-shift-color-1: rgb(255, 0, 0);
+  --nice-shift-color-2: rgb(255, 165, 0);
+  --nice-shift-color-3: rgb(0, 255, 0);
+  --nice-shift-color-4: rgb(0, 0, 255);
+  --nice-shift-color-time: 2s;
+  --nice-hover-over-channel-color-1: rgb(204, 0, 0);
+  --nice-hover-over-channel-color-2: rgb(51, 0, 0);
+}
