@@ -88,7 +88,6 @@ body,
 .uploadArea_b78547,
 .resizeHandle__01ae2,
 .container__551b0,
-.container__01ae2,
 .backdrop__8a7fc,
 .headerBar__8a7fc,
 .overlay__8a7fc,
@@ -105,6 +104,15 @@ body,
 .chat_f75fb0,
 .container__9293f {
     background: 0 0 !important;
+}
+
+
+.chatLayerWrapper__01ae2:has(:not(.floating__01ae2)) .container__01ae2 {
+    background: 0 0 !important;
+}
+
+.chatLayerWrapper__01ae2:has(.floating__01ae2) .container__01ae2 {
+    background: 0 rgb( 0, 0, 0, 0.3)
 }
 
 .headerBar__1a9ce,
