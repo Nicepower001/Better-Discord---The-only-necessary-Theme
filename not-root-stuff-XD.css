@@ -112,7 +112,7 @@ body,
 }
 
 .chatLayerWrapper__01ae2:has(.floating__01ae2) .container__01ae2 {
-    background: 0 rgb( 0, 0, 0, 0.3)
+    background: 0 rgb( 0, 0, 0, 0.5) !important;
 }
 
 .headerBar__1a9ce,
