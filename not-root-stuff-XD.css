@@ -114,7 +114,6 @@ body,
 .folderGroupBackground__48112,
 .header__551b0,
 .shop__6db1d,
-.container__01ae2,
 .container__551b0,
 .sidebar__5e434,
 .sidebarList__5e434,
@@ -131,6 +130,12 @@ body,
 .scroller__7d20c,
 .sidebarListRounded__5e434 {
     border-color: var(--nice-border-color) !important;
+}
+
+.container__01ae2,
+.floating__01ae2 {
+    border-color: var(--nice-border-color) !important;
+    border-width: 0.5px !important;
 }
 
 .container__60f82 {
