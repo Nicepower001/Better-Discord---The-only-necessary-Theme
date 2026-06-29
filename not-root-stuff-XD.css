@@ -338,6 +338,7 @@ body,
     border-inline-end: 0.5px solid var(--nice-border-color);
     border-inline-start: 0.5px solid var(--nice-border-color);
     border-top: 0.5px solid var(--nice-border-color);
+    border-bottom: 0.5px solid var(--nice-border-color);
     border-color: var(--nice-border-color) !important;
     border-width: 0.5px !important;
 }
