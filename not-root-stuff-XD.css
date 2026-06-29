@@ -106,15 +106,6 @@ body,
     background: 0 0 !important;
 }
 
-
-.chatLayerWrapper__01ae2:has(:not(.floating__01ae2)) .container__01ae2 {
-    background: 0 0 !important;
-}
-
-.chatLayerWrapper__01ae2:has(.floating__01ae2) .container__01ae2 {
-    background: 0 rgb( 0, 0, 0, 0.5) !important;
-}
-
 .headerBar__1a9ce,
 .page__5e434,
 .searchBar_e6b769,
@@ -327,6 +318,14 @@ body,
 .isHovering__48112 > .listItem__650eb > div > .item__58105,
 .listItem__650eb:has(.selected__6e9f8) .item__58105{
     animation: colorShiftDot calc(var(--nice-shift-color-time) + 1s) linear infinite !important;
+}
+
+.chatLayerWrapper__01ae2:has(:not(.floating__01ae2)) .container__01ae2 {
+    background: 0 0 !important;
+}
+
+.chatLayerWrapper__01ae2:has(.floating__01ae2) .container__01ae2 {
+    background: 0 rgb( 0, 0, 0, 0.5) !important;
 }
 
 body::before,
