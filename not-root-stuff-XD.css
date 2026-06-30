@@ -220,8 +220,14 @@ body,
 }
 
 .container__0be77,
-.embedFull__623de,
 .contents_c19a55 {
+    border: var(--nice-text-border) !important;
+    border-radius: var(--nice-text-border-radius);
+    padding: var(--nice-text-padding) !important;
+    background-color: var(--nice-text-background);
+}
+
+.embedFull__623de:has(:not("border-left-color:")) {
     border: var(--nice-text-border) !important;
     border-radius: var(--nice-text-border-radius);
     padding: var(--nice-text-padding) !important;
