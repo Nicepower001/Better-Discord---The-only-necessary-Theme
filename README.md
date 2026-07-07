@@ -18,7 +18,7 @@ The Only Necessary Theme
 - I have only tested this theme on Better Discord, but maybe it also works on other clients ¯\\\_(ツ)_/¯
 - I have tested it on Windows and Linux, but not on MacOS, so if you have one and could tell me if it works that would be great :D
 - I take no responsibility if this theme causes any issues for you (like if you get caught with an inappropriate background image or something like that)
-- I took the example picture myself, so feel free to use it as a background image if you like it :D
+- I took the example picture myself, so feel free to use it as a background image if you like it :D (Could be that it isnt available anymore cause discord changed the url)
 - _<sub>There probably are many unnecessary lines of code but as long as it works i dont care</sub>_
 
 <br>

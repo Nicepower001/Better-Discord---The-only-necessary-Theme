@@ -21,9 +21,14 @@
   /* THE INITIAL IN THE END IS CRUCIAL ELSE */
   /* THE FALLBACK DOESNT WORK               */
   /*                                        */
+  /* ALSO IF YOU HAVE AN INVALID IMAGE LINK */
+  /* THE BACKGROUND CRASHES AT THAT POINT   */
+  /* AND THE WHOLE THING DOESNT WORK ANYMORE*/
+  /* IT JUST SHOWS THE SET COLOR BACKGROUND */
+  /*                                        */
   /* IF YOU DO AND WANT TO SEE EM WRITE FOR */
   /* EXAMPLE:                               */
-  /* --nice-background-image-1: url(https://media.discordapp.net/attachments/1514614496382156870/1514614538744496289/2026-05-02_20.02.58.png?ex=6a2c0236&is=6a2ab0b6&hm=3b6858a33a94f9a7c60eb1fd8fb17c643aead1f2afc7757bc85ecd699490b241&=&quality=lossless); */
+  /* --nice-background-image-1: url(https://cdn.discordapp.com/attachments/1514614496382156870/1514614538744496289/2026-05-02_20.02.58.png?ex=6a4da076&is=6a4c4ef6&hm=958bb8b3692ab02d7dfd2fd2e34cf3116345de19c62600899c072f068633c759&); */
   /* OR YOU JUST DO SMTH LOKAL ON YOUR PC IF YOU HAVE A PICTURE ETC. YOU DONT WANT ON THE INTERNET ;) */
   /* ALSO PLS START INPUTTING IMAGES FROM THE TOP. LIKE FIRST DO IMAGE-1 THEN IMAGE-2 ETC. */
   --nice-background-image-change: 120s; /* HOW LONG EACH IMAGE STAYS AS BACKGROUND IF 4 IMAGES (SO YOU TYPE 4 SEC AND EACH IMAGE WILL STAY 4 SEC) */
